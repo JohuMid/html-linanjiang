@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>单元格合并</title>
+</head>
+<body>
+<table bgcolor="black"width="500px"align="center">
+    <tr bgcolor="white">
+        <td height="100px" colspan="2"></td>
+        <!--colspan水平rowspan垂直，把当前单元格看为多个单元格看待-->
+        <!--再删除多余的单元格即可，单元格都是向后或者向下合并-->
+        <td rowspan="2"></td>
+    </tr>
+    <tr bgcolor="white">
+        <td height="100px"></td>
+        <td></td>
+
+    </tr>
+    <tr  bgcolor="white">
+        <td height="100px"></td>
+        <td colspan="2"></td>
+
+    </tr>
+</table>
+</body>
+</html>

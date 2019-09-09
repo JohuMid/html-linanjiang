@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单标签</title>
+</head>
+<body>
+<form action="https://www.baidu.com/">
+    <input type="button" value="我是按钮" onclick="alert(123)"><br>
+    <!--button是表单标签中的按钮标签-->
+
+    账号：<input type="" name="aa"><br>
+    <!--明文输入框-->
+    密码：<input type="password" name="bb"><br>
+    <!--暗文输入框-->
+
+    <input type="reset" value="清空">
+    <!--重置按钮，清空表单中输入的数据-->
+
+    <input type="submit">
+    <!--提交按钮，提交到远程服务器
+        1、给form表单加一个action的属性，指定需要提交到的服务器的地址
+        2、需要给服务器的表单元素添加一个name属性
+        -->
+    <input type="hidden" name="cc" value="kukku">
+    <!--隐藏域：配合提交按钮将一些数据悄悄咪咪的提交到服务器-->
+</form>
+</body>
+</html>

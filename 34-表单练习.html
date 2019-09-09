@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单练习</title>
+</head>
+<body>
+<form action="https://www.baidu.com/">
+    <fieldset>
+        <legend>注册界面</legend>
+
+    <label for="account">账号：</label><input type="text" name="number" id="account"><br>
+    <label for="password">密码：</label><input type="password" name="pwd" id="password"><br>
+    性别：
+    <input type="radio" name="gender" value="male">男
+    <input type="radio" name="gender" value="female">女
+    <input type="radio" name="gender" value="serect">保密
+    <br>
+    爱好：
+    <input type="checkbox" name="sport" value="basketball">篮球
+    <input type="checkbox" name="sport" value="football">足球
+    <input type="checkbox" name="sport" checked="checked" value="footbath">足浴
+    <br>
+    个人简介：
+    <textarea name="" id="" cols="30" rows="10" dirname="jianjie">
+
+    </textarea>
+    <br>
+    生日：<input type="date" name="birthday">
+    <br>
+    邮箱：<input type="email" name="qq">
+    <br>
+    手机：<input type="number"name="phone">
+    <br>
+
+    <input type="submit" value="注册">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="reset" value="清空">
+    </fieldset>
+</form>
+</body>
+</html>
+<!--https://www.baidu.com/?number=123&pwd=123456789&gender=male&sport=footbath&birthday=2017-07-05&qq=123%40qq.com&phone=1321156166-->
+<!--除了按钮标签以外其他类型的标签都可以用value设定值-->
+<!--<fieldset>给表单增加一个边框，legend增加标题,&nbsp空格-->
